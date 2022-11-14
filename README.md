@@ -24,7 +24,7 @@
 ### Profil
 Passionné d'art graphique de musiques et de jeux vidéos, je suis moi même déssinateur, compositeur de musique et bientôt **développeur indépendant de jeux vidéos** avec mon frère !
 Dans mon temps libre, j'adore créer ! Imaginer des mondes, écrire des histoires, faire de la musique, ou dessiner, ce sont les trois choses que j'aime le plus faire. Mais j'ai aussi beacoup d'objectifs, j'aimerais pouvoir pousser plus loin mes comptétences de création de digital art ainsi qu'en développement de jeux. J'aimerai beaucoup par exemple apprendre la création de modèles et d'animations 3D (personnages ou environement) par Blender ou autres logiciels, et j'apprends actuallement à utiliser des moteurs de jeux comme Unity ou Godot Engine.
-Car, j'ai pour projet d'accomplir la création d'un jeu dont je construit l'histoire, les personnages et les musiques depuis quelques annés. Je bâti aussi depuis 7 ans, l'univers d'un futur webcomic qui pourra être lisible sur mon propre futur site web ! 
+Car, j'ai pour projet d'accomplir la création d'un jeu dont je construit l'histoire, les personnages et les musiques depuis quelques annés. Je bâti aussi depuis 7 ans, l'univers d'une futur série de webcomics qui pourront être lisibles sur mon propre futur site web ! 
 Englobant donc la grande majorité de mes passions, ces projets représentent beacoup pour moi.
 
 ### Formation
