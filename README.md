@@ -7,7 +7,11 @@
 *(musiques, dessins et autres créations graphiques déjà réalisés)*
 
 ## Compétences :
-Bachelier, créatif, ouvert d'ésprit, passionné et motivé
+- Bachelier (Titulaire BAC Sciences et Technologies de l'Industrie et du Développement Durable [STI2D] - Option Innovation Technologique et Éco-Conception [ITEC])
+- Créatif
+- Ouvert d'ésprit
+- Passionné 
+- Motivé
 
 ## Ma présentation :
 Passionné d'art graphique de musiques et de jeux vidéos, je suis moi même déssinateur, compositeur de musique et bientôt **développeur indépendant de jeux vidéos !**
