@@ -1,16 +1,8 @@
 # Portfolio (Notes brouillon)
 
-## Contact & Résaux :
-- Tél. : 07 67 08 21 95
-- Mail : ethanlerigab@gmail.com
-- Discord : BauKo.#1414
-- Twitter : @BauKoArt
-
 ## Expérience Pro :
 - Stage d'observation à l'Agence Régionale de Santé (Auvergne Rhônes-Alpes), où j'ai appris à démonter et réparer des ordinateurs, ou le fonctionnement de serveurs résaux.
 
-## Photos :
-*(musiques, dessins et autres créations graphiques déjà réalisés)*
 
 ## Compétences :
 - Bachelier (Titulaire BAC Sciences et Technologies de l'Industrie et du Développement Durable [STI2D] - Option Innovation Technologique et Éco-Conception [ITEC])
@@ -28,11 +20,25 @@ Car, j'ai pour projet d'accomplir la création d'un jeu dont je construit l'hist
 Englobant donc la grande majorité de mes passions, ces projets représentent beacoup pour moi.
 
 ### Formation
-Je suis actuellement en formation de développement web et web mobile pour me construire une base solide du développement et de la programmation dans certains des langages les plus utilisés. Je suis également très intéressé par le développement web, plus particulièrement la partie front-end et tout ce qui touche à de l'html et du css ! 
+Je suis actuellement en formation de développement web et web mobile.
+Cette formation consiste à me permettre de maitriser les languages essentiels à la création de pages web et à la gestion leur contenu. J'ai intégré cette formation pour me construire une base solide en développement et en programmation avec certains des langages les plus utilisés. Je suis également très intéressé par le développement web depuis que j'en ai fait dans mes années lycée, plus particulièrement la partie front-end et tout ce qui touche à l'html et au css ! 
 
 
 ### Affinités Tech
+Voici mes niveaux de maitrises actuelles des langages de programmations :
+- HTML
+- CSS
+- PHP
+- SQL
+- JAVASCRIPT
+- C#
 
 
 ## Mes projets :
 *(screenshots projets unity/godot, dev jeu, dessins webcomic, etc)*
+
+## Contact & Résaux :
+- Tél. : 07 67 08 21 95
+- Mail : ethanlerigab@gmail.com
+- Discord : BauKo.#1414
+- Twitter : @BauKoArt
