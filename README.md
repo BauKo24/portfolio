@@ -14,4 +14,4 @@ Passionné d'art graphique de musiques et de jeux vidéos, je suis moi même dé
 
 
 ## Mes projets :
-*(screenshots projets unity/godot, dev jeu, dessins webcomic, etc)
+*(screenshots projets unity/godot, dev jeu, dessins webcomic, etc)*
