@@ -14,21 +14,21 @@ html {
     color: white;
 }
 
-div.page{
+div.page {
     padding-top: 80px;
 }
 
-h1.portfo{
+h1.portfo {
     font-size: xx-large;
     font-weight: 200;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-a:hover{
+a:hover {
     color: yellow;
 }
 
@@ -44,14 +44,18 @@ a:hover{
 
 img.bk-logo {
     width: 80px;
-
+    padding-left: 50px;
 }
 
-ul.ancres{
+img.star {
+    width: 20px;
+}
+
+ul.ancres {
+    font-size: x-large;
     width: 50%;
     display: flex;
     list-style: none;
     justify-content: space-between;
     padding: 0;
 }
-
