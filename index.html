@@ -15,17 +15,17 @@
         <img class="star" src="ressources/star.png">
         <h1 class="portfo">Portfolio - Ethan LERIGAB (BauKo.)</h1>
         <ul class="ancres">
-            <li><a href="#">Profil</a></li>|
-            <li><a href="#">Formation</a></li>|
-            <li><a href="#">Compétences & Affinités</a></li>|
-            <li><a href="#">Projets</a></li>|
-            <li><a href="#">Galerie</a></li>|
-            <li><a href="#">Contact & Résaux</a></li>
+            <li><a href="#sc1">Profil</a></li>|
+            <li><a href="#sc2">Formation</a></li>|
+            <li><a href="#sc3">Compétences & Affinités</a></li>|
+            <li><a href="#sc4">Projets</a></li>|
+            <li><a href="#sc5">Galerie</a></li>|
+            <li><a href="#sc6">Contact & Résaux</a></li>
         </ul>
     </header>
     <div class="page">
         <section class="section sprofil">
-            <h1>- Profil -</h1>
+            <h1 id="sc1">- Profil -</h1>
             <div class="sc1-pg1 sc-page">
                 <img class="bauko-logo" src="ressources/bauko.png">
                 <div class="bjr-eth">
@@ -36,7 +36,8 @@
                     </p>
                 </div>
             </div>
-            <img class="inkcat1" src="ressources/inkcat1.gif">
+            <div class="inkcat1"></div>
+            <!-- <img class="inkcat1" src="ressources/inkcat1.svg"> -->
 
             <div class="sc1-pg2 sc-page">
                 <div>
@@ -53,9 +54,9 @@
             </div>
 
             <div class="sc1-pg3 sc-page">
-                <div>
-                    <img src="ressources/blender.png">
-                    <img src="ressources/unity.png">
+                <div class="grp-screen">
+                    <img class="screen" src="ressources/blender.png">
+                    <img class="screen" src="ressources/unity.png">
                 </div>
                 <p>* J'aimerai beaucoup par exemple apprendre la création de modèles et d'animations 3D (personnages ou
                     environement)
@@ -64,18 +65,19 @@
             </div>
         </section>
         <section class="section sformation">
-            <h1>- Formation -</h1>
+            <h1 id="sc2">- Formation -</h1>
             <div class="sc2-pg1 sc-page">
                 <div>
                     <p>
                         * J’ai effectué mes années collège dans l’établissement du Collège Lucie-AUBRAC de
                         Clermont-Ferrand.
-                        J’y ai obtenu mon Brevet des collèges avec metion bien.</p>
+                        J’y ai obtenu mon Brevet des collèges avec mention bien.</p>
                     <p>
-                        * J’ai fais mes annés lycée au Lycée Lafayette de Clermont-Ferrand. J’ai fait un BAC Général
+                        * J’ai fais mes années lycée au Lycée Lafayette de Clermont-Ferrand. J’ai fait un BAC Général
                         Technologique en STI2D (Sciences et Technologies de l’Industrie et du Développement Durable)
                         option
-                        ITEC (Innovation Technologique et Éco-Conception). J’ai eu mon bac avec mention assez bien !
+                        ITEC (Innovation Technologique et Éco-Conception). Mais ce que j'y faisais ne m'intéressait pas
+                        tellement. J’ai toutefois réussi à obtenir mon bac avec mention assez bien !
                     </p>
                 </div>
                 <p>
@@ -96,7 +98,7 @@
             </div>
         </section>
         <section class="section scomp">
-            <h1>- Compétences & Affinités -</h1>
+            <h1 id="sc3">- Compétences & Affinités -</h1>
             <div class="sc3-pg1 sc-page">
                 <div>
                     <p>* Comptétences :</p>
@@ -132,7 +134,7 @@
             </div>
         </section>
         <section class="section sprojets">
-            <h1>- Projets -</h1>
+            <h1 id="sc4">- Projets -</h1>
             <div class="sc4-pg1 sc-page">
                 <p>* J'ai pour projet d'accomplir la création d'un jeu du nom de "Midnight's Fable" dont je construit
                     l'histoire, les personnages et
@@ -148,20 +150,82 @@
             </div>
         </section>
         <section class="section sgalerie">
-            <h1>- Galerie -</h1>
+            <h1 id="sc5">- Galerie -</h1>
             <div class="sc5-pg1 sc-page">
-                <p>* Voici un aperçu des certains de mes oeuvres :</p>
-                <div class="grid-container">
-                    <div class="item1">Header</div>
-                    <div class="item2">Menu</div>
-                    <div class="item3">Main</div>
-                    <div class="item4">Right</div>
-                    <div class="item5">Footer</div>
+                <p>* Voici un aperçu des certains de mes travaux/work in progress :</p>
+                <div>
+                    <div class="carousel">
+                        <ul class="slides">
+                            <input type="radio" name="radio-buttons" id="img-1" checked />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="ressources/carousel/fate.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-4" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-2" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-2" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="ressources/carousel/night.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-1" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-3" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-3" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="ressources/carousel/imagination.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-2" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-4" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-4" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="ressources/carousel/aseprite.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-3" class="prev-slide">
+                                        <span>&lsaquo;</span>
+                                    </label>
+                                    <label for="img-1" class="next-slide">
+                                        <span>&rsaquo;</span>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <div class="carousel-dots">
+                                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                                <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="section scontact">
-            <h1>- Contact & Résaux-</h1>
+            <h1 id="sc6">- Contact & Résaux-</h1>
             <div class="sc6-pg1 sc-page">
                 <p>* MAIL: ethanlerigab@gmail.com</p>
                 <p>* TÉL.: 07 67 08 21 95</p>
@@ -176,11 +240,6 @@
                 <img src="ressources/dog.gif">
             </div>
         </footer>
-        <embed src="ressources/BauKo_Outro.mp3" loop="true" autostart="true" width="2" height="0" hidden>
-            <audio controls autoplay hidden>
-                <source src="ressources/BauKo_Outro.mp3" type="audio/mp3">
-                Your browser does not support the audio element.
-            </audio>
     </div>
 </body>
 
