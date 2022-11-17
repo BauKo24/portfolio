@@ -4,6 +4,14 @@
         url(ressources/fonts/determination-mono-web-font/DeterminationSansWebRegular-369X.ttf) format('truetype');
 }
 
+@media only screen and (max-width: 800px) {
+
+    /* Pour les tablettes  */
+    img.bauko-logo {
+        width: 80%;
+    }
+}
+
 ::-webkit-scrollbar {
     background: transparent;
 }
@@ -25,9 +33,32 @@ html {
     min-height: 100vh;
     color: white;
     overflow: overlay;
+    text-align: center;
 }
 
-p, h1, li {
+ul.exception {
+    text-align: left;
+}
+
+p::selection {
+    background-color: rgb(22, 247, 255);
+}
+
+h1::selection {
+    background-color: rgb(22, 247, 255);
+}
+
+li::selection {
+    background-color: rgb(22, 247, 255);
+}
+
+a::selection {
+    background-color: rgb(22, 247, 255);
+}
+
+p,
+h1,
+li {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
@@ -49,11 +80,11 @@ a:hover {
     color: yellow;
 }
 
-.menu-bar {
+header.menu-bar {
     position: fixed;
     background-color: rgb(11, 11, 11);
     width: 100%;
-    min-height: 80px;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,12 +92,27 @@ a:hover {
 }
 
 img.bk-logo {
-    width: 80px;
+    height: 100%;
     padding-left: 50px;
 }
 
 img.star {
     width: 20px;
+}
+
+img.bauko-logo {
+    filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.7));
+    width: 100%;
+    height: auto;
+}
+
+img.inkcat1{
+    width: 5%;
+    margin: 50px;
+}
+
+img.draw{
+    width: 75%;
 }
 
 ul.ancres {
@@ -80,22 +126,30 @@ ul.ancres {
 
 /* ^ code à pas toucher ^  */
 
-img.bauko-logo{
-    filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.7));
-}
-
 div>p {
-    font-size:x-large;
+    font-size: x-large;
 }
 
-/* .sc-page {
-    min-height: 700px;
+div.sc-page {
     padding: 50px;
-} */
+}
+
+div.sc1-pg1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+div.sc1-pg2{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
 
 /* progress bars  */
 
-.bar {
+div.bar {
     background-color: red;
     max-width: 97%;
     min-width: 20%;
@@ -103,61 +157,75 @@ div>p {
     height: 15px;
 }
 
-.progress {
+span.progress {
     background-color: yellow;
     position: absolute;
     height: 15px;
 }
 
-.progress.py{
+span.progress.py {
     width: 20%;
 }
 
-.progress.js{
+span.progress.js {
     width: 0.5%;
 }
 
-.progress.cs{
+span.progress.cs {
     width: 1%;
 }
 
-.progress.sql{
+span.progress.sql {
     width: 15%;
 }
 
-.progress.html{
+span.progress.html {
     width: 35%;
 }
 
-.progress.php{
+span.progress.php {
     width: 10%;
 }
 
-.progress.css{
+span.progress.css {
     width: 45%;
 }
 
 
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: #ffffff;
-  padding: 10px;
+.item1 {
+    grid-area: header;
 }
 
-.grid-container > div {
-  background-color: rgb(16, 16, 16);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.item2 {
+    grid-area: menu;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+.item4 {
+    grid-area: right;
+}
+
+.item5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgb(16, 16, 16);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
 }
