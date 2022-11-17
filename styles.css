@@ -40,8 +40,21 @@ html {
     text-align: center;
 }
 
+#sc1, #sc2, #sc3, #sc4, #sc5, #sc6 {
+    padding-top: 80px;
+}
+
 ul.exception {
     text-align: left;
+}
+
+ul.talents {
+    list-style-type: none;
+}
+
+ul.talents li {
+    font-size:xx-large;
+    font-weight: 200;
 }
 
 p::selection {
@@ -95,6 +108,11 @@ header.menu-bar {
     z-index: 5;
 }
 
+img.wow {
+    border-radius: 500px;
+    height: 100px;
+}
+
 img.bk-logo {
     height: 100%;
     padding-left: 50px;
@@ -116,6 +134,16 @@ img.screen {
 
 img.draw {
     width: 100%;
+}
+
+img.campus26 {
+    width: 15%;
+    margin: 20px;
+}
+
+img.inkcat2 {
+    width: 5%;
+    margin: 20px;
 }
 
 div.inkcat1 {
@@ -178,6 +206,11 @@ div.sc2-pg2 {
     background: linear-gradient(black, rgba(0, 0, 0, 0), black), url(ressources/code.png);
 }
 
+div.sc3-pg1 {
+    display: flex;
+    justify-content: space-around;
+}
+
 div.sc4-pg1 {
     background: radial-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), linear-gradient(black, rgba(0, 0, 0, 0), black), url(ressources/ruins.png);
     background-size: cover;
@@ -187,6 +220,16 @@ div.sc4-pg1 {
 div.sc4-pg1 p {
     /* padding-top: 10px; */
     padding-bottom: 50px;
+}
+
+div.talent-box {
+    border: white solid 10px;
+    width: 20%;
+}
+
+div.affinity-box {
+    border: white solid 10px;
+    padding: 20px;
 }
 
 /* progress bars  */
