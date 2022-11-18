@@ -129,7 +129,7 @@ img.bauko-logo {
 
 img.screen {
     max-width: 45%;
-    border: 10px white solid;
+    border-radius: 10px;
     padding: 5px;
 }
 
@@ -417,29 +417,89 @@ input:checked+.slide-container .nav label {
     display: block;
 }
 
+.hamburger {
+    display: none;
+}
 
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+}
 
-
-
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1440px) {
     ul.slides {
         height: 60vh;
     }
 }
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1300px) {
     ul.slides {
         height: 50vh;
     }
+
+    img.bk-logo {
+        padding-left: 10px;
+    }
+
+    .portfo {
+        font-size: larger;
+    }
+
+    .ancres {
+        position: fixed;
+        left: -100%;
+        top: 55px;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        border: 10px white solid;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .ancres.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
 }
 
-@media only screen and (max-width: 1150px){
+
+
+@media only screen and (max-width: 1150px) {
     ul.slides {
         height: 40vh;
     }
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 950px) {
     ul.slides {
         height: 30vh;
     }
@@ -456,7 +516,7 @@ input:checked+.slide-container .nav label {
     div.sc-page {
         padding: 50px;
     }
-    
+
     div.sc1-pg1 {
         flex-wrap: wrap;
     }
@@ -478,7 +538,7 @@ input:checked+.slide-container .nav label {
     }
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 650px) {
     ul.slides {
         height: 20vh;
     }
@@ -496,7 +556,7 @@ input:checked+.slide-container .nav label {
     div.sc-page {
         padding: 15px;
     }
-    
+
     div.sc1-pg1 {
         flex-wrap: wrap;
     }
