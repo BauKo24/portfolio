@@ -24,6 +24,7 @@
     border-radius: 10px;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -130,6 +131,8 @@ img.bauko-logo {
 
 img.screen {
     max-width: 45%;
+    border: 10px white solid;
+    padding: 5px;
 }
 
 img.draw {
@@ -144,6 +147,10 @@ img.campus26 {
 img.inkcat2 {
     width: 5%;
     margin: 20px;
+}
+
+img.dog {
+    width: 10%;
 }
 
 div.inkcat1 {
@@ -230,6 +237,10 @@ div.talent-box {
 div.affinity-box {
     border: white solid 10px;
     padding: 20px;
+}
+
+div.music {
+    padding: 70px;
 }
 
 /* progress bars  */
@@ -437,7 +448,8 @@ input#img-2:checked~.carousel-dots label#img-dot-2,
 input#img-3:checked~.carousel-dots label#img-dot-3,
 input#img-4:checked~.carousel-dots label#img-dot-4,
 input#img-5:checked~.carousel-dots label#img-dot-5,
-input#img-6:checked~.carousel-dots label#img-dot-6 {
+input#img-6:checked~.carousel-dots label#img-dot-6,
+input#img-7:checked~.carousel-dots label#img-dot-7 {
     opacity: 1;
 }
 
