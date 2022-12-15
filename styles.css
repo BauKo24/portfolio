@@ -97,6 +97,10 @@ a:hover {
     color: yellow;
 }
 
+a.nav-link:hover {
+    color: yellow;
+}
+
 header.menu-bar {
     position: fixed;
     background-color: rgb(11, 11, 11);
@@ -150,6 +154,11 @@ img.inkcat2 {
 
 img.dog {
     width: 10%;
+}
+
+li.nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 div.inkcat1 {
@@ -206,6 +215,7 @@ div.sc1-pg2 {
 div.grp-screen {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px; 
 }
 
 div.sc2-pg2 {
@@ -242,7 +252,7 @@ div.music {
     padding: 70px;
 }
 
-/* progress bars  */
+/* elprogress bars  */
 
 div.bar {
     background-color: red;
@@ -252,37 +262,37 @@ div.bar {
     height: 15px;
 }
 
-span.progress {
+span.elprogress {
     background-color: yellow;
     position: absolute;
     height: 15px;
 }
 
-span.progress.py {
+span.elprogress.py {
     width: 20%;
 }
 
-span.progress.js {
+span.elprogress.js {
     width: 0.5%;
 }
 
-span.progress.cs {
+span.elprogress.cs {
     width: 1%;
 }
 
-span.progress.sql {
+span.elprogress.sql {
     width: 15%;
 }
 
-span.progress.html {
+span.elprogress.html {
     width: 35%;
 }
 
-span.progress.php {
+span.elprogress.php {
     width: 10%;
 }
 
-span.progress.css {
+span.elprogress.css {
     width: 45%;
 }
 
@@ -438,7 +448,7 @@ input:checked+.slide-container .nav label {
     }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1320px) {
     ul.slides {
         height: 50vh;
     }
@@ -451,14 +461,24 @@ input:checked+.slide-container .nav label {
         font-size: larger;
     }
 
+    ul.ancres {
+        font-size: x-large;
+        width: 100%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0;
+    }
+
     .ancres {
         position: fixed;
         left: -100%;
         top: 55px;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.99);
         width: 100%;
-        border: 10px white solid;
+        border: 5px white solid;
+        border-left-style: none;
         text-align: center;
         transition: 0.3s;
         box-shadow:
