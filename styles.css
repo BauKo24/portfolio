@@ -195,7 +195,7 @@ div.sc-page {
 }
 
 div.sc1-pg1 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), black), url(ressources/sky.png);
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), black), url(ressources/webp/sky.webp);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -219,7 +219,7 @@ div.grp-screen {
 }
 
 div.sc2-pg2 {
-    background: linear-gradient(black, rgba(0, 0, 0, 0), black), url(ressources/code.png);
+    background: linear-gradient(black, rgba(0, 0, 0, 0), black), url(ressources/webp/code.webp);
 }
 
 div.sc3-pg1 {
@@ -228,7 +228,7 @@ div.sc3-pg1 {
 }
 
 div.sc4-pg1 {
-    background: radial-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), linear-gradient(black, rgba(0, 0, 0, 0), black), url(ressources/ruins.png);
+    background: radial-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), linear-gradient(black, rgba(0, 0, 0, 0), black), url(ressources/webp/ruins.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -269,7 +269,7 @@ span.elprogress {
 }
 
 span.elprogress.py {
-    width: 20%;
+    width: 10%;
 }
 
 span.elprogress.js {
@@ -281,152 +281,22 @@ span.elprogress.cs {
 }
 
 span.elprogress.sql {
-    width: 15%;
-}
-
-span.elprogress.html {
     width: 35%;
 }
 
+span.elprogress.html {
+    width: 55%;
+}
+
 span.elprogress.php {
-    width: 10%;
+    width: 30%;
 }
 
 span.elprogress.css {
-    width: 45%;
-}
-
-.carousel {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-ul.slides {
-    display: block;
-    position: relative;
-    height: 600px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style: none;
-}
-
-.slides * {
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-}
-
-ul.slides input {
-    display: none;
+    width: 65%;
 }
 
 
-.slide-container {
-    display: block;
-}
-
-.slide-image {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    opacity: 0;
-    transition: all .7s ease-in-out;
-}
-
-.slide-image img {
-    width: auto;
-    height: 100%;
-}
-
-.carousel-controls {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
-    font-size: 100px;
-    line-height: 600px;
-    color: #fff;
-}
-
-.carousel-controls label {
-    display: none;
-    position: absolute;
-    padding: 0 20px;
-    opacity: 0;
-    transition: opacity .2s;
-    cursor: pointer;
-}
-
-.slide-image:hover+.carousel-controls label {
-    opacity: 0.5;
-}
-
-.carousel-controls label:hover {
-    opacity: 1;
-}
-
-.carousel-controls .prev-slide {
-    width: 49%;
-    text-align: left;
-    left: 0;
-}
-
-.carousel-controls .next-slide {
-    width: 49%;
-    text-align: right;
-    right: 0;
-}
-
-.carousel-dots {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    z-index: 2;
-    text-align: center;
-}
-
-.carousel-dots .carousel-dot {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.5;
-    margin: 10px;
-}
-
-input:checked+.slide-container .slide-image {
-    opacity: 1;
-    transform: scale(1);
-    transition: opacity 1s ease-in-out;
-}
-
-input:checked+.slide-container .carousel-controls label {
-    display: block;
-}
-
-input#img-1:checked~.carousel-dots label#img-dot-1,
-input#img-2:checked~.carousel-dots label#img-dot-2,
-input#img-3:checked~.carousel-dots label#img-dot-3,
-input#img-4:checked~.carousel-dots label#img-dot-4,
-input#img-5:checked~.carousel-dots label#img-dot-5,
-input#img-6:checked~.carousel-dots label#img-dot-6,
-input#img-7:checked~.carousel-dots label#img-dot-7 {
-    opacity: 1;
-}
-
-
-input:checked+.slide-container .nav label {
-    display: block;
-}
 
 .hamburger {
     display: none;
