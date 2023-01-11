@@ -75,6 +75,7 @@ a::selection {
 
 p,
 h1,
+h5,
 li {
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
@@ -186,7 +187,7 @@ ul.ancres {
 
 /* ^ code à pas toucher ^  */
 
-div>p {
+div>p, h5 {
     font-size: x-large;
 }
 
@@ -383,10 +384,20 @@ span.elprogress.css {
 }
 
 
+.carousel {
+    width: 80%;
+    margin: auto;
+}
+
+
 
 @media only screen and (max-width: 1150px) {
     ul.slides {
         height: 40vh;
+    }
+
+    .carousel {
+        width: 90%;
     }
 }
 
@@ -397,6 +408,10 @@ span.elprogress.css {
 
     div.grp-screen {
         flex-wrap: wrap;
+    }
+
+    .carousel {
+        width: 100%;
     }
 }
 
@@ -432,11 +447,6 @@ span.elprogress.css {
 @media only screen and (max-width: 650px) {
     ul.slides {
         height: 20vh;
-    }
-
-    .carousel-dots .carousel-dot {
-        width: 10px;
-        height: 10px;
     }
 }
 
