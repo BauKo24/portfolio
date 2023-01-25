@@ -125,6 +125,7 @@ img.bk-logo {
 
 img.star {
     width: 20px;
+    display: block;
 }
 
 img.bauko-logo {
@@ -157,9 +158,18 @@ img.dog {
     width: 10%;
 }
 
+img.pic {
+    width: 20%;
+}
+
 li.nav-item {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+div.pics {
+    display: flex;
+    align-items: center;
 }
 
 div.inkcat1 {
@@ -274,27 +284,27 @@ span.elprogress.py {
 }
 
 span.elprogress.js {
-    width: 0.5%;
+    width: 20%;
 }
 
 span.elprogress.cs {
-    width: 1%;
+    width: 15%;
 }
 
 span.elprogress.sql {
-    width: 35%;
+    width: 45%;
 }
 
 span.elprogress.html {
-    width: 55%;
+    width: 75%;
 }
 
 span.elprogress.php {
-    width: 30%;
+    width: 50%;
 }
 
 span.elprogress.css {
-    width: 65%;
+    width: 85%;
 }
 
 
@@ -367,6 +377,7 @@ span.elprogress.css {
     .hamburger {
         display: block;
         cursor: pointer;
+        margin-right: 30px;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -398,6 +409,14 @@ span.elprogress.css {
 
     .carousel {
         width: 90%;
+    }
+
+    img.inkcat2 {
+        width: 10%;
+    }
+
+    img.dog {
+        width: 10%;
     }
 }
 
@@ -448,6 +467,14 @@ span.elprogress.css {
     ul.slides {
         height: 20vh;
     }
+
+    img.star {
+        display: none;
+    }
+
+    img.screen {
+        width: 100%;
+    }
 }
 
 
@@ -480,5 +507,9 @@ span.elprogress.css {
 
     div.music {
         padding: 0;
+    }
+    
+    img.dog {
+        width: 20%;
     }
 }
