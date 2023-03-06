@@ -50,9 +50,19 @@ ul.exception {
 
 ul.talents {
     list-style-type: none;
+    padding: 0;
 }
 
 ul.talents li {
+    font-size: xx-large;
+    font-weight: 200;
+}
+
+div.realisations {
+    list-style-type: none;
+}
+
+a.real-lien {
     font-size: xx-large;
     font-weight: 200;
 }
@@ -100,6 +110,11 @@ a:hover {
 
 a.nav-link:hover {
     color: yellow;
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 header.menu-bar {
@@ -256,6 +271,10 @@ div.talent-box {
 }
 
 div.affinity-box {
+    border: white solid 10px;
+    padding: 20px;
+}
+div.real-box {
     border: white solid 10px;
     padding: 20px;
 }
